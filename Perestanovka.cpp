@@ -13,7 +13,7 @@ int main() {
 	a = a * 10 + b;
 	cout << a << endl;
 	}
-	else cout << "wait that's illegal!";
+	else cout << "wait that's illegal!\n";
 	system("pause");
 	return 0;
 }
