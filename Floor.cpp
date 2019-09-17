@@ -7,7 +7,8 @@ int main() {
 	setlocale(LC_ALL, "Russian");
 	float a;
 	cin >> a;
-	cout << floor(a / 1024) << endl;
+	if (a >= 0) cout << floor(a / 1024) << endl;
+	else cout << "Не ну это бан";
 	system("pause");
 	return 0;
 }
